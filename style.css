@@ -6,10 +6,10 @@ body
 #world
 {
 	position: absolute;
-	height: 80%;
-	width: 80%;
-	left: 10%;
-	top: 10%;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
 	border: 3px solid #444444;
 	background: #888888;
 }
@@ -31,4 +31,15 @@ body
 	width: 50px;
 	border-radius: 50%;
 	border: 2px solid #444444;
+}
+
+#massDisplay
+{
+	position: absolute;
+	height: 100%
+	width: 100%;
+	top: 15px;
+	left: 20px
+	text-align: center;
+	font-family: arial;
 }
